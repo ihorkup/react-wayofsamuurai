@@ -3,12 +3,12 @@ import s from './MyPosts.module.css';
 import Post from './Post/Post';
 
 let posts = [
-    {id: 1, message: "It's my first post", likeCount: "15"},
-    {id: 2, message: "I xfbnxcnbcxknb you", likeCount: "111111"},
-    {id: 3, message: "How are you?", likeCount: "14"}
+    { id: 1, message: "It's my first post", likeCount: "15" },
+    { id: 2, message: "I xfbnxcnbcxknb you", likeCount: "111111" },
+    { id: 3, message: "How are you?", likeCount: "14" }
 ]
 
-let postsElements = posts.map( p => <Post message={p.message} likeCount={p.likeCount} />);
+let postsElements = posts.map(p => <Post message={p.message} likeCount={p.likeCount} />);
 
 const MyPosts = () => {
     return (
