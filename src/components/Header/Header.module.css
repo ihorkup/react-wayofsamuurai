@@ -4,9 +4,10 @@
   }
   
   .header img {
-    width: 40px;
-    margin-top: 10px;
-    margin:0px;
+    width: 100px;
     display: inline-block;
-
+    padding: 0px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: cyan 0px 0px 5px;
   }

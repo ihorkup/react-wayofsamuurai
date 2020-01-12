@@ -10,5 +10,6 @@
   }
 
   .item a.active {
-    color: rgb(0, 134, 72);
+    color: rgb(1, 66, 36);
+    text-shadow: rgb(0, 107, 89) 0px 0px 10px;
   }

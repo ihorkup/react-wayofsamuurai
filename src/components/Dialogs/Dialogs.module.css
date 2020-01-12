@@ -9,8 +9,8 @@
 }
 
 .dialogsItem .active {
-    color: rgb(0, 134, 72);
-    text-decoration: underline;
+    color: rgb(2, 95, 75);
+    text-shadow: rgb(11, 126, 97) 0px 0px 10px;
 }
 
 .dialog a {

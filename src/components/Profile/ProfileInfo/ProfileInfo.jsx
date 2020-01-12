@@ -5,7 +5,7 @@ const ProfileInfo = () => {
     return (
         <div>
             <div>
-                <img className={s.shpalery} src='https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg' />
+                <img className={s.shpalery} src={require('./wrapper.jpg')} alt="image"/>
             </div>
             <div className={s.descriptionBlock}>
                 ava+discriptin
