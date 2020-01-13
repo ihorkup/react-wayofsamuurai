@@ -5,7 +5,7 @@ const Header = () => {
     return (
     <header className={s.header}>
         {/* <img src='https://upload.wikimedia.org/wikipedia/commons/a/ac/Oikya_Front_Logo.png'/> */}
-        <img src={ require('./image.jpg') } />
+        <img src={ require('./logo-w.png') } />
     </header>
     );
 }

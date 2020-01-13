@@ -10,19 +10,20 @@ import Music from './components/Music/Music';
 import News from './components/News/News';
 import Settings from './components/Settings/Settings';
 
-let App = () => {
+let App = (props) => {
+
   return (
     <BrowserRouter> {/*Працює в поєднанні з елементом Route */}
       <div className='app-wrapper'>
         <Header />
         <Navbar />
         <div className='app-wrapper-content'>
-          <Route path='/profile' component={Profile} /> {/*Route стежать за URL і якщо вона рівна або має корінь (path) - відкрити (component)*/}
-          <Route path='/dialogs' component={Dialogs} /> {/*exact - допомагає Route відстежити ТОЧНИЙ URL без корення (не "/dialogs/1")*/}
-          <Route path='/media' component={Media} />
-          <Route path='/music' component={Music} />
-          <Route path='/news' component={News} />
-          <Route path='/settings' component={Settings} />
+          <Route path='/profile' render={() => <Profile posts={props.posts} />} /> {/*Route стежать за URL і якщо вона рівна або має корінь (path) - відкрити (component)*/}
+          <Route path='/dialogs' render={() => <Dialogs dialogs={props.dialogs} messages={props.messages} />} /> {/*exact - допомагає Route відстежити ТОЧНИЙ URL без корення (не "/dialogs/1")*/}
+          <Route path='/media' render={() => <Media />} />
+          <Route path='/music' render={() => <Music />} />
+          <Route path='/news' render={() => <News />} />
+          <Route path='/settings' render={() => <Settings />} />
         </div>
       </div>
     </BrowserRouter>

@@ -1,13 +1,13 @@
 .header {
     grid-area: h;
+    height: 100%;
     background-color: rgb(20, 163, 132);
   }
   
   .header img {
-    width: 100px;
+    width: 110px;
     display: inline-block;
     padding: 0px;
-    margin: 10px;
-    border-radius: 15px;
-    box-shadow: cyan 0px 0px 5px;
+    margin: 12px;
+    margin-left: 15px ;
   }

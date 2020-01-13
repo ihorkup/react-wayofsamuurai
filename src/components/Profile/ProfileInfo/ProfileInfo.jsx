@@ -5,7 +5,7 @@ const ProfileInfo = () => {
     return (
         <div>
             <div>
-                <img className={s.shpalery} src={require('./wrapper.jpg')} alt="image" />
+                <img className={s.shpalery} src="https://zakarpat.brovdi.art/images/ca-painters/_background/_nophoto.png" />
             </div>
             <div className={s.descriptionBlock}>
                 ava+discriptin
