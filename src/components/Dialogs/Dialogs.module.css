@@ -1,11 +1,13 @@
 .dialogs {
     display: grid;
-    grid-template-columns: 2fr 10fr;
+    grid-template-columns: 5fr 15fr;
+    margin: 0px 20px 0px 20px;
 }
 
 .dialogsItem {
-    padding: 15px;
-   
+    margin: 20px 0px 20px 0px;
+    border-right-style: solid;
+    border-right-color: rgb(11, 126, 97);
 }
 
 .dialogsItem .active {
@@ -13,13 +15,50 @@
     text-shadow: rgb(11, 126, 97) 0px 0px 10px;
 }
 
+.dialog {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+
 .dialog a {
     text-decoration: none;
     color: black;
 }
 
-
+.dialog img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 100px;
+    box-shadow: darkgreen 0px 0px 5px;
+}
 
 .messages {
-    padding: 15px;
+    padding: 20px 0px 20px 20px;
+    text-align: right;
+
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 3px;
+    color: white;
+}
+
+.message #admin {
+    align-self: flex-end;
+    background-color: rgb(103, 207, 181);
+    border-radius: 10px;
+    padding: 5px 20px 5px 10px;
+
+}
+
+.message #user {
+    background-color: rgb(77, 165, 145);
+    border-radius: 10px;
+    padding: 5px 10px 5px 20px;
+
 }

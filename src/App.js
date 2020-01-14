@@ -18,8 +18,8 @@ let App = (props) => {
         <Header />
         <Navbar />
         <div className='app-wrapper-content'>
-          <Route path='/profile' render={() => <Profile posts={props.state.ProfilePage.posts} />} /> {/*Route стежать за URL і якщо вона рівна або має корінь (path) - відкрити (component)*/}
-          <Route path='/dialogs' render={() => <Dialogs dialogs={props.state.DialogsPage.dialogs} messages={props.state.DialogsPage.messages} />} /> {/*exact - допомагає Route відстежити ТОЧНИЙ URL без корення (не "/dialogs/1")*/}
+          <Route path='/profile' render={() => <Profile posts={props.state.ProfilePage.posts} />} />
+          <Route path='/dialogs' render={() => <Dialogs dialogs={props.state.DialogsPage.dialogs} messages={props.state.DialogsPage.messages} src={props.state.DialogsPage.src} />} />
           <Route path='/media' render={() => <Media />} />
           <Route path='/music' render={() => <Music />} />
           <Route path='/news' render={() => <News />} />
