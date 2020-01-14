@@ -3,7 +3,7 @@ import s from './Media.module.css';
 
 const Media = () => {
     return (
-        <div>
+        <div className={s.media}>
             Media
         </div>
     );
