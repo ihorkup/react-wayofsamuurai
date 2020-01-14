@@ -1,0 +1,31 @@
+.friends {
+    margin: 15px;
+}
+
+.friendsItem {
+    margin: 20px 0px 20px 0px;
+}
+
+/* .friendsItem .active {
+    color: rgb(2, 95, 75);
+    text-shadow: rgb(11, 126, 97) 0px 0px 10px;
+} */
+
+.friend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+    
+.friend a {
+    text-decoration: none;
+    color: black;
+}
+    
+.friend img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 100px;
+    box-shadow: darkgreen 0px 0px 5px;
+}
