@@ -1,47 +1,51 @@
 .nav {
-  grid-area: n;
-  background-color: rgb(132, 216, 198);
-  padding: 15px;
+    grid-area: n;
+    background-color: rgb(132, 216, 198);
+    padding: 15px;
 
+}
+
+#sitebar {
+    font-size: 24px;
+    text-align: center;
 }
 
 .item a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .item a.active {
-  color: rgb(1, 66, 36);
-  text-shadow: rgb(0, 107, 89) 0px 0px 10px;
+    color: rgb(1, 66, 36);
+    text-shadow: rgb(0, 107, 89) 0px 0px 10px;
 }
 
 .sitebar {
-  text-align: center;
-
-  position: relative;
+    text-align: center;
+    position: relative;
 }
 
 .itemBlock {
-  vertical-align: top;
-  display: inline-block;
-  text-align: center;
-  margin: 10px auto;
-  padding: 0px 4px 0px 4px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin: 10px auto;
+    padding: 0px 4px 0px 4px;
 }
 
 .name {
-  display: block;
+    display: block;
 }
 
 .sitebar a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
-    
+
 .sitebar img {
-  width: 47px;
-  height: 47px;
-  margin-right: 0px;
-  border-radius: 100px;
-  box-shadow: darkgreen 0px 0px 5px;
+    width: 47px;
+    height: 47px;
+    margin-right: 0px;
+    border-radius: 100px;
+    box-shadow: darkgreen 0px 0px 5px;
 }

@@ -40,16 +40,14 @@ let state = {
             { id: "3", name: "Nazar", src: 'https://images.unsplash.com/photo-1536548665027-b96d34a005ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' },
             { id: "4", name: "Oleg", src: 'https://images.unsplash.com/photo-1536548665027-b96d34a005ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' },
             { id: "5", name: "Olia", src: 'https://image.shutterstock.com/image-photo/indoor-portrait-beautiful-brunette-young-260nw-640005220.jpg' },
-            { id: "6", name: "Lilia", src: 'https://image.shutterstock.com/image-photo/indoor-portrait-beautiful-brunette-young-260nw-640005220.jpg' }
+            { id: "6", name: "Lilia", src: 'https://image.shutterstock.com/image-photo/indoor-portrait-beautiful-brunette-young-260nw-640005220.jpg' },
+            { id: "7", name: "Oksana", src: 'https://images.unsplash.com/photo-1536548665027-b96d34a005ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' },
+            { id: "8", name: "Grisha", src: 'https://images.unsplash.com/photo-1536548665027-b96d34a005ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' }
         ]
     },
 
     Sitebar: {
-        friends: [
-            { id: "1", name: "Yura", src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsxahHVbXwzmog46qufl0bgX39rH2jSrCiYMgbZFkySCHFOMEG7Q&s' },
-            { id: "6", name: "Lilia", src: 'https://image.shutterstock.com/image-photo/indoor-portrait-beautiful-brunette-young-260nw-640005220.jpg' },
-            { id: "3", name: "Nazar", src: 'https://images.unsplash.com/photo-1536548665027-b96d34a005ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' }
-        ]
+
     }
 }
 

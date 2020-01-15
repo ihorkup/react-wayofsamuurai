@@ -17,7 +17,7 @@ let App = (props) => {
     <BrowserRouter>
       <div className='app-wrapper'>
         <Header />
-        <Navbar state={props.state.Sitebar} />
+        <Navbar state={props.state.FriendsPage} />
         <div className='app-wrapper-content'>
           <Route path='/profile' render={() => <Profile state={props.state.ProfilePage} />} />
           <Route path='/dialogs' render={() => <Dialogs state={props.state.DialogsPage} />} />
@@ -25,7 +25,7 @@ let App = (props) => {
           <Route path='/music' render={() => <Music />} />
           <Route path='/news' render={() => <News />} />
           <Route path='/settings' render={() => <Settings />} />
-          <Route path='/friends' render={() => <Friends state={props.state.FriendsPage}/>} />
+          <Route exact path='/friends' render={() => <Friends state={props.state.FriendsPage}/>} />
         </div>
       </div>
     </BrowserRouter>
